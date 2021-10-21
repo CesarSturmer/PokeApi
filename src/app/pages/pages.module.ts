@@ -1,9 +1,10 @@
 import { CommonModule } from '@angular/common'
 import { NgModule } from '@angular/core'
 
-import { HomeComponent } from './home/home.component'
-import { PagesRoutingModule } from './pages-routing.module';
+import { SharedModule } from '../shared/shared.module'
 import { DetailsComponent } from './details/details.component'
+import { HomeComponent } from './home/home.component'
+import { PagesRoutingModule } from './pages-routing.module'
 
 
 
@@ -14,7 +15,8 @@ import { DetailsComponent } from './details/details.component'
   ],
   imports: [
     CommonModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    SharedModule
   ]
 })
 export class PagesModule { }
