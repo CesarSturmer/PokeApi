@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common'
 import { NgModule } from '@angular/core'
 import { RouterModule } from '@angular/router'
+import { NgxPaginationModule } from 'ngx-pagination'
 
 import { ErrorApiComponent } from './error-api/error-api.component'
 import { PokeHeaderComponent } from './poke-header/poke-header.component'
@@ -18,7 +19,9 @@ import { PokeSearchComponent } from './poke-search/poke-search.component'
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    NgxPaginationModule
+
   ],
   exports: [
     PokeHeaderComponent,

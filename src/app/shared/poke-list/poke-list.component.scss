@@ -68,4 +68,31 @@
       }
     }
   }
+  .pagination::ng-deep {
+    display: flex;
+    justify-content: center;
+
+    .ngx-pagination {
+      .pagination-previous,
+      .pagination-next {
+        border-radius: rem-calc(10);
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+
+      a {
+        color: var(--branco);
+      }
+      a:hover {
+        border-radius: rem-calc(10);
+      }
+    }
+
+    .ngx-pagination .current {
+      padding: 0.1875rem 0.625rem;
+      background: var(--branco);
+      border-radius: rem-calc(20);
+      color: var(--primary-color);
+      cursor: default;
+    }
+  }
 }

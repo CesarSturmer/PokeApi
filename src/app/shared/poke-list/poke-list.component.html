@@ -1,6 +1,8 @@
 <app-poke-search (emmitSearch)="getSearch($event)"></app-poke-search>
 <section class="listagem">
-  <ng-template ngFor let-pokemon [ngForOf]="getAllPokemons">
+  <ng-template ngFor let-pokemon [ngForOf]="
+      getAllPokemons | paginate: { itemsPerPage: 10, currentPage: pagination }
+    ">
     <a [routerLink]="['details', pokemon.status.id]" #carregando href="" class="pokemon" *ngIf="pokemon.status">
       <section class="pokemon__status">
         <h2>{{ pokemon.name }}</h2>
@@ -16,5 +18,7 @@
     </a>
   </ng-template>
 </section>
+<pagination-controls class="pagination" previousLabel="Voltar" nextLabel="Próximo" (pageChange)="pagination = $event">
+</pagination-controls>
 
 <app-error-api *ngIf="apiError"></app-error-api>

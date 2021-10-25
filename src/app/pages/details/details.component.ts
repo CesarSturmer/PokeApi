@@ -7,18 +7,16 @@ import { PokeApiService } from './../../service/poke-api.service'
 @Component({
   selector: 'app-details',
   templateUrl: './details.component.html',
-  styleUrls: ['./details.component.scss']
+  styleUrls: ['./details.component.scss'],
 })
 export class DetailsComponent implements OnInit {
-
-  private urlPokemon: string = 'https://pokeapi.co/api/v2/pokemon'
-  private urlName: string = 'https://pokeapi.co/api/v2/pokemon-species'
+  private urlPokemon: string = 'https://pokeapi.co/api/v2/pokemon';
+  private urlName: string = 'https://pokeapi.co/api/v2/pokemon-species';
 
   public pokemon: any;
 
-  public isLoading: boolean = false
-  public apiError: boolean = false
-
+  public isLoading: boolean = false;
+  public apiError: boolean = false;
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -26,27 +24,28 @@ export class DetailsComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.getPokemon;
+    this.getPokemon();
   }
 
-
   public getPokemon() {
-
     const id = this.activatedRoute.snapshot.params['id'];
 
-    const pokemon = this.pokeApiService.apiGetPokemons(`${this.urlPokemon}/${id}`)
-    const name = this.pokeApiService.apiGetPokemons(`${this.urlName}/${id}`)
+    const pokemon = this.pokeApiService.apiGetPokemons(
+      `${this.urlPokemon}/${id}`
+    );
+    const name = this.pokeApiService.apiGetPokemons(`${this.urlName}/${id}`);
+
+    console.log(pokemon);
 
     //faz duas buscar ao mesmo tempo
     return forkJoin([pokemon, name]).subscribe(
-      res => {
+      (res) => {
         this.pokemon = res;
-        this.isLoading = true
+        this.isLoading = true;
       },
-      error => {
-        this.apiError = true
+      (error) => {
+        this.apiError = true;
       }
-    )
+    );
   }
-
 }
