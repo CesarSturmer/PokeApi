@@ -1,7 +1,8 @@
 # Pokedex
   <img alt="Pagina incial do pokedex" title="Pagina incial do pokedex" src="https://imgur.com/Fmbgyg4.png" />
 # About 📃 
-  Projeto desenvolvido com [Angular](https://pokeapi.co/). Esse projeto foi desenvolvido para consumir a API [PokeAPI](https://pokeapi.co/).
+Projeto desenvolvido com <a href="https://angular.io/">Angular <a/>. Consumindo a API <a href="https://pokeapi.co/">PokeAPI<a/>. Objetivo era praticar, colocando em prática estudos em angular.
+
 
 # Tecnologias  🚀
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
