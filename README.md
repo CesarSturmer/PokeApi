@@ -1,7 +1,13 @@
 # Pokedex
+  <img alt="Pagina incial do pokedex" title="Pagina incial do pokedex" src="https://imgur.com/Fmbgyg4.png" />
+# About 📃 
+  Projeto desenvolvido com [Angular](https://pokeapi.co/). Esse projeto foi desenvolvido para consumir a API [PokeAPI](https://pokeapi.co/).
 
-![Tela inical do projeto Pokedex]('./src/assets/capa-readme.png')
+# Tecnologias  🚀
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
+- <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"> </code>
+- <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
 
