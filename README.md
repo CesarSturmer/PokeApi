@@ -3,7 +3,7 @@
   
 # About
 <br />
-Projeto desenvolvido com <a href="https://angular.io/">Angular <a/>. Consumindo a API <a href="https://pokeapi.co/">PokeAPI<a/>. Objetivo era praticar, colocando em prática estudos em angular.
+Projeto desenvolvido com <a href="https://angular.io/">Angular <a/>. Consumindo a API <a href="https://pokeapi.co/">PokeAPI<a/>. Objetivo colocar em prática estudos em Angular.
 
 
 # Tecnologias  🚀
