@@ -8,9 +8,32 @@ Projeto desenvolvido com <a href="https://angular.io/">Angular <a/>. Consumindo 
 
 # Tecnologias  🚀
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+  <p>
+   <img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" alt="Sass" width="70" height="70"/>
+   <img src="https://github.com/devicons/devicon/blob/master/icons/angularjs/angularjs-original.svg" alt="Sass" width="70" height="70"/>
+   <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" alt="typescript" width="70" height="70"/>
+   
+ </p>
+  
+ <br> 
 
-- <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"> </code>
-- <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
+## Getting Started 🚀 
+  
+  Clone the project and access the folder
+
+  ```bash
+    $ git clone https://github.com/CesarSturmer/PokeApi.git
+  ```
+  First, run the development server:
+
+  ```bash
+    cd pokeapi
+    $ npm install
+    &&
+    $ ng serve -open
+  ```
+  Open [http://localhost:4200](http://localhost:4200) with your browser to see the result.
+  <br>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
 
