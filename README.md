@@ -6,7 +6,7 @@
 Projeto desenvolvido com <a href="https://angular.io/">Angular <a/>. Consumindo a API <a href="https://pokeapi.co/">PokeAPI<a/>. Objetivo colocar em prática estudos em Angular.
 
 
-# Tecnologias  🚀
+# Technologies  🚀
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
   <p>
    <img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" alt="Sass" width="70" height="70"/>
