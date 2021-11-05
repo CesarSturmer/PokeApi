@@ -17,7 +17,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
   
  <br> 
 
-## Getting Started 🚀 
+# Getting Started 🚀 
   
   Clone the project and access the folder
 
